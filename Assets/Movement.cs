@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class move : MonoBehaviour
+public class Movement : MonoBehaviour
 {
     public float speed = 3.0f;
     private Vector2 moveInput;
