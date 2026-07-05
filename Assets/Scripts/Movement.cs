@@ -7,6 +7,12 @@ public class Movement : MonoBehaviour
     private Vector2 moveInput;
     private float sprintInput;
     private string lastPressedAxis = "";
+    private Animator anim;
+    void Start()
+    {
+        // automatically find the Animator component when the game starts
+        anim = GetComponent<Animator>();
+    }
 
     // built-in function to automatically detect keyboard/controller input
     public void OnMove(InputValue value)
@@ -46,6 +52,30 @@ public class Movement : MonoBehaviour
             normal_speed = speed * 2.0f;
         }
         transform.Translate(direction * normal_speed * Time.deltaTime);
+
+
+        // send direction variables to the Animator parameters
+        if (moveInput.magnitude > 0)
+        {
+            if (lastPressedAxis == "Horizontal")
+            {
+                anim.SetFloat("Horizontal", direction.x);
+                anim.SetFloat("Vertical", 0f);
+            }
+            else
+            {
+                anim.SetFloat("Horizontal", 0f);
+                anim.SetFloat("Vertical", direction.y);
+            }
+
+            // update the Speed parameter to switch between Idle and Walk states
+            anim.SetFloat("Speed", 1f);
+        }
+        else
+        {
+            anim.SetFloat("Speed", 0f);
+        }
+
 
     }
 }
