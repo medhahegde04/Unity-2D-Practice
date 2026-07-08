@@ -8,10 +8,13 @@ public class Movement : MonoBehaviour
     private float sprintInput;
     private string lastPressedAxis = "";
     private Animator anim;
+    private AudioSource footstepAudio;
+
     void Start()
     {
         // automatically find the Animator component when the game starts
         anim = GetComponent<Animator>();
+        footstepAudio = GetComponent<AudioSource>();
     }
 
     // built-in function to automatically detect keyboard/controller input
@@ -31,6 +34,14 @@ public class Movement : MonoBehaviour
     public void OnSprint(InputValue value)
     {
         sprintInput = value.Get<float>();
+    }
+
+    public void PlayFootstepSound()
+    {
+        if (footstepAudio != null)
+        {
+            footstepAudio.Play();
+        }
     }
 
     void Update()
