@@ -7,6 +7,7 @@ A simple 2D top-down pixel explorer project in Unity.
 * **4-Way Movement**: Uses the modern Input System to handle horizontal and vertical player movement.
 * **Animations**: Connects player inputs to an Animator to switch between idle and walking states.
 * **Footstep Audio**: Uses Animation Events to play footstep sounds precisely as the sprite moves.
+* **Main Menu**: A functional menu with a background pattern and menu navigation buttons for play and quit.
 
 ## Controls
 
