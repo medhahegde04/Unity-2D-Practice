@@ -1,4 +1,6 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 public class DialogueController : MonoBehaviour
 {
@@ -11,6 +13,15 @@ public class DialogueController : MonoBehaviour
         if (dialoguePanel != null)
         {
             dialoguePanel.SetActive(false);
+        }
+    }
+
+    void Update()
+    {
+        // Press M to return to the Main Menu scene
+        if (Keyboard.current != null && Keyboard.current.mKey.wasPressedThisFrame)
+        {
+            SceneManager.LoadScene("MainMenu");
         }
     }
 
