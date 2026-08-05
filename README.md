@@ -1,4 +1,4 @@
-# Unity 2D Practice
+# 2D Explorer Game
 
 A simple 2D top-down pixel explorer project in Unity.
 
@@ -7,7 +7,7 @@ A simple 2D top-down pixel explorer project in Unity.
 * **4-Way Movement**: Uses the modern Input System to handle horizontal and vertical player movement.
 * **Animations**: Connects player inputs to an Animator to switch between idle and walking states.
 * **Footstep Audio**: Uses Animation Events to play footstep sounds precisely as the sprite moves.
-* **Main Menu**: A functional menu with a background pattern and menu navigation buttons for play and quit.
+* **Main Menu**: A functional menu with a background pattern and menu navigation buttons for play, settings, credits, and quit.
 * **Interactive Cursor**: A scene-aware mouse cursor that changes appearance over buttons and automatically hides during gameplay.
 * **Dialogue Panel**: A script-managed UI box configured to hide on startup and activate dynamically via gameplay triggers.
 
