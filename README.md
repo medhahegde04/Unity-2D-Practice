@@ -18,4 +18,4 @@ A simple 2D top-down pixel explorer project in Unity.
 
 ## Assets
 
-* **Art and Sprites**: Sprout Lands assets (Free Packs) by Cup Nooble (available on itch.io).
+* **Art and Sprites**: [Sprout Lands (Free Packs) by Cup Nooble](https://cupnooble.itch.io/) on itch.io.
