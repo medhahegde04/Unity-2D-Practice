@@ -2,6 +2,12 @@
 
 A simple 2D top-down pixel explorer project in Unity.
 
+
+# Live Playable Link
+
+https://monasidequest.itch.io/2d-explorer
+
+
 ## Current Features
 
 * **4-Way Movement**: Uses the modern Input System to handle horizontal and vertical player movement.
@@ -11,10 +17,13 @@ A simple 2D top-down pixel explorer project in Unity.
 * **Interactive Cursor**: A scene-aware mouse cursor that changes appearance over buttons and automatically hides during gameplay.
 * **Dialogue Panel**: A script-managed UI box configured to hide on startup and activate dynamically via gameplay triggers.
 
+
 ## Controls
 
 * **Move**: W, A, S, D / Arrow Keys
 * **Sprint**: Hold Shift
+* **Main Menu**: Press M
+
 
 ## Assets
 
