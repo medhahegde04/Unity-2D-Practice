@@ -28,3 +28,9 @@ https://monasidequest.itch.io/2d-explorer
 ## Assets
 
 * **Art and Sprites**: [Sprout Lands (Free Packs) by Cup Nooble](https://cupnooble.itch.io/) on itch.io.
+
+## Game Snippets
+
+<img width="1917" height="1078" alt="image" src="https://github.com/user-attachments/assets/d0581495-84ac-4fe0-840d-b78fb94de032" />
+
+<img width="1918" height="1078" alt="20261006-1805-36 0267146" src="https://github.com/user-attachments/assets/a4f1dc0f-c19d-4914-9905-9d4bd08e8b45" />
